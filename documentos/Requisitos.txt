@@ -1,0 +1,22 @@
+CASO DE USO
+
+- Requisito Funcional
+ * Manipulação e manutenção do dominio do sistema (Cadastro, manipulação de dados)
+
+_ Requisitos Não Funcinal (ISO9126)
+
+
+DESCRIÇÃO DO CASO DE USO
+
+- Registrar um Pedido
+  1. [OUT] O sistema mostra uma listagem com nome, preço, descrição e foto de todos os produtos
+     ordenados por nome.
+  2. [IN] O cliente seleciona os produtos desejados e informa a localização de entrega do pedido.
+  3. [OUT] O sistema informa o código do pedido
+
+- Entregar Pedido
+  1. [OUT] O sistema informa uma lista contendo código, valor total, tempo e itens, dos pedidos
+     pendentes, ordenados dos mais antigos para os mais recentes.
+  2. [IN] O entregador selecioa o pedido.
+  3. [OUT] O sistema informa o mapa com a rota até a localização de entrega.
+  4. [IN] O entregado informa que o pedido foi entregue.

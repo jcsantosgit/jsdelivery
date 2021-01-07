@@ -1,0 +1,24 @@
+DELIMITAÇÃO DO ESCOPO
+- Premissas
+  * Atender desde estudantes a profissionais iniciantes.
+  * Interessantes para aprendizado
+  * Interessantes para portifólio
+  * Curto (evento de uma semana)
+
+- Brainstorms
+  * Sistema de registro de entrega de pedidos
+  * Cliente: registra o pedido. Entregador: lista pedidos pendentes e entrega.
+  * Um pedido pode conter vários produtos
+  * Cada pedido possui uma localização
+  * Uso de mapa
+
+O QUE FAZ PARTE E O QUE NÃO FAZ PARTE DO PROJETO
+
+
+OUTROS ASPECTOS
+- Objetivos
+- Entregas
+- Tarefas
+- Responsabilidades
+- Prazos
+- Custos

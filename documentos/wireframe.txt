@@ -1,0 +1,3 @@
+É um esboço das telas do sistema.
+
+Serve de base para o designer especificar os protótipos de tela do sistema / projeto de UI/UX.
