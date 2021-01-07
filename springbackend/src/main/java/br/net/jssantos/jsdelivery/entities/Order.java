@@ -1,6 +1,7 @@
 package br.net.jssantos.jsdelivery.entities;
 
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -24,10 +25,12 @@ public class Order implements Serializable {
 	private Double latitude;
 	private Double longitude;
 	private OrderStatus status;
+	private String address;
+	private Instant moment;
 	
 	@ManyToMany
 	@JoinTable(
-	   name = "Order_Product", 
+	   name = "Orders_Products", 
 	   joinColumns = @JoinColumn(name="order_id"),
 	   inverseJoinColumns = @JoinColumn(name="product_id")
 	)	
@@ -35,12 +38,14 @@ public class Order implements Serializable {
 	
 	public Order () {}
 
-	public Order(Long id, Double latitude, Double longitude, OrderStatus status) {
+	public Order(Long id, Double latitude, Double longitude, OrderStatus status, String address, Instant moment) {
 		super();
 		this.id = id;
 		this.latitude = latitude;
 		this.longitude = longitude;
 		this.status = status;
+		this.address = address;
+		this.moment = moment;
 	}
 
 	public Long getId() {
@@ -77,6 +82,22 @@ public class Order implements Serializable {
 	
 	public Set<Product> getOrderProducts() {
 		return this.Products;
+	}
+	
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public Instant getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Instant moment) {
+		this.moment = moment;
 	}
 
 	@Override
