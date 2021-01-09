@@ -2,6 +2,7 @@ package br.net.jssantos.jsdelivery.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -34,8 +35,12 @@ public class Order implements Serializable {
 	   joinColumns = @JoinColumn(name="order_id"),
 	   inverseJoinColumns = @JoinColumn(name="product_id")
 	)	
-	Set<Product> Products;
+	Set<Product> Products = new HashSet<>();
 	
+	public Set<Product> getProducts() {
+		return Products;
+	}
+
 	public Order () {}
 
 	public Order(Long id, Double latitude, Double longitude, OrderStatus status, String address, Instant moment) {
@@ -78,10 +83,6 @@ public class Order implements Serializable {
 
 	public void setStatus(OrderStatus status) {
 		this.status = status;
-	}
-	
-	public Set<Product> getOrderProducts() {
-		return this.Products;
 	}
 	
 	public String getAddress() {
