@@ -4,7 +4,7 @@ create table Orders (
     longitude float8, 
     moment TIMESTAMP WITHOUT TIME ZONE, 
     status int4, 
-    address VARCHAR(255)
+    address VARCHAR(255),
     primary key (id)
 );
 

@@ -1,0 +1,16 @@
+postgres://
+plptnzdwezilnc
+:
+9ecf79a4c773251d280503a7f66daf72b006e7f64ed1901c52a12b6b2a3b229c
+@
+ec2-35-168-77-215.compute-1.amazonaws.com
+:
+5432
+/
+dar6ouo075k54l
+
+
+https://snapcraft.io/install/heroku/opensuse
+
+
+https://devsuperior.com.br/sds2-aulas4583?blog=2dwf9sqq0&video=1
