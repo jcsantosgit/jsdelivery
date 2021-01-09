@@ -28,7 +28,7 @@ public class Order implements Serializable {
 	private OrderStatus status;
 	private String address;
 	private Instant moment;
-	
+
 	@ManyToMany
 	@JoinTable(
 	   name = "Orders_Products", 
