@@ -1,0 +1,17 @@
+.navbar-brand {
+    color: #C7483C !important;
+    font-size: 28px !important;
+}
+
+.bg-color-nav{
+    background-color: #142B5D !important;
+    height: 80px;
+}
+
+.bg-color-nav a {
+    color: white;
+}
+
+.bg-color-nav a:hover {
+    color: rgba(255,255,255,0.5);
+}

@@ -1,0 +1,53 @@
+.btn-action-container{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.btn-action:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-action {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #EF4E36;
+    color: white;
+    font-weight: 700;
+    height: 70px;
+    width: 447px;
+    border: 1px solid #EF4E36;
+    border-radius: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.btn-action > span{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-home{
+    margin-top: 70px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 52px !important;
+    margin-top: 50px !important;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial !important;
+}
+
+h3 {
+    font-size: 38px !important;
+    color: #AEA8A8 !important;
+    margin-top: 15px !important;
+    text-align: center;
+}
