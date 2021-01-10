@@ -1,8 +1,13 @@
-import ImageHome from './images/home.png';
-import './Home.css';
+import React from 'react';
+
+import ImageHome from '../images/home.png';
+import Footer from '../footer/Footer';
+
+import './style.css';
 
 export default function Home(){
     return (
+        <>
         <div className="container-fluid">
             <div className="row">
                 <div className="col">
@@ -10,7 +15,7 @@ export default function Home(){
                         Faça seu pedido que nós entregamos para você
                     </h1>
                     <h3>
-                        Escollha seu pedido e em poucos mínutos levaremos na sua porta
+                        Escollha seu produto e em poucos mínutos levaremos na sua porta
                     </h3>
                     <div className="btn-action-container">
                         <a href="#" className="btn-action" >
@@ -24,5 +29,7 @@ export default function Home(){
                 </div>                
             </div>
         </div>
+        <Footer />
+        </>
     )
 }

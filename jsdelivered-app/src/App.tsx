@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import Home from './Home';
+import Header from './header/Header';
+import Home from './home/Home';
 
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
