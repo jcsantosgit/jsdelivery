@@ -8,7 +8,7 @@ import './style.css';
 export default function Home(){
     return (
         <>
-        <div className="container-fluid">
+        <div className="container-fluid bg-home">
             <div className="row">
                 <div className="col">
                     <h1>
@@ -18,7 +18,7 @@ export default function Home(){
                         Escollha seu produto e em poucos mínutos levaremos na sua porta
                     </h3>
                     <div className="btn-action-container">
-                        <a href="#" className="btn-action" >
+                        <a href="/orders" className="btn-action" >
                             <span>Fazer Pedido</span>
                         </a>
                     </div>

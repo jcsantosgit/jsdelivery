@@ -1,0 +1,60 @@
+.bg-order-products {
+  padding: 10px 0;
+  background-color: #f1f1f1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 7px !important;
+  }
+
+  .card .description-title{
+      font-weight: 700 !important;
+      text-align: left;
+      font-size: 16px;
+  }
+  .card .content{
+      text-align: left;
+      padding: 5px 0 15px 0;
+      font-size: 14px;
+  }
+  .card .title{
+      margin: 0 !important;
+      padding: 10px 0;
+      font-size: 24px;
+      font-weight: 700;
+      font-family: arial;
+  }
+  
+  .price {
+    color: #E45E48;
+    font-size: 22px;
+    text-align: left;
+    padding: 8px 0;
+    font-weight: 700;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #E45E48;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card:hover{
+    border: 1px solid #E45E48;
+  }

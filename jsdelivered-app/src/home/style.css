@@ -1,3 +1,7 @@
+.bg-home{
+    background-color: white !important;
+}
+
 .btn-action-container{
     margin-top: 20px;
     display: flex;

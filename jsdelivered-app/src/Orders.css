@@ -1,0 +1,40 @@
+.bg-order-header{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.order-header-title{
+    color: #E45E48;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.search-order{
+    margin: 10px 0;
+    width: 250px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+    background: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    padding: 15px 10px;
+    border-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.btn-search-header{
+    float: right;
+    padding: 15px 10px;
+    margin: 10px 0;
+    background-color: #E45E48;
+    color: white;
+    border: 1px solid #E45E48;
+}
+  
+/* When the input field gets focus, change its width to 100% */
+.search-order:focus {
+    width: 70%;
+}
