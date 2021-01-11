@@ -1,15 +1,19 @@
 import CardProduct from './CardProduct';
 import './OrderProducts.css';
+import { Product } from './types';
 
-function OrderProducts(){
+type Props = {
+    products: Product[];
+}
+
+function OrderProducts({ products }: Props){
+
     return(
         <div className="container-fluid">
             <div className="row bg-order-products">
-                <CardProduct />
-                <CardProduct />
-                <CardProduct /> 
-                <CardProduct />
-                <CardProduct />
+                {products.map(p => (
+                    <CardProduct key={p.id} product={p} />
+                ))}
             </div>
         </div>
     )
