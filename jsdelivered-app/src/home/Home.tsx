@@ -4,6 +4,7 @@ import ImageHome from '../images/home.png';
 import Footer from '../footer/Footer';
 
 import './style.css';
+import { Link } from 'react-router-dom';
 
 export default function Home(){
     return (
@@ -18,14 +19,14 @@ export default function Home(){
                         Escollha seu produto e em poucos mínutos levaremos na sua porta
                     </h3>
                     <div className="btn-action-container">
-                        <a href="/orders" className="btn-action" >
+                        <Link to="/orders" className="btn-action" >
                             <span>Fazer Pedido</span>
-                        </a>
+                        </Link>
                     </div>
                     
                 </div>
                 <div className="col">
-                    <img src={ImageHome} className="image-home" />
+                    <img src={ImageHome} className="image-home" alt="Imagem da Home" />
                 </div>                
             </div>
         </div>

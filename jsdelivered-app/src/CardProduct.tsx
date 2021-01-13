@@ -28,7 +28,6 @@ function CardProduct({product} : Props){
                 <p className="content">
                     {product.description}
                 </p>
-                <p><button>Quero Este</button></p>
             </div>        
         </div>
     )

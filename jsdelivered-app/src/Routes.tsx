@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./header/Header";
 import Home from "./home/Home";
+import OrderAddress from "./OrderAddress";
 import Orders from './Orders';
 
 function Routes(){
@@ -11,6 +12,9 @@ function Routes(){
             <Route path="/orders">
                 <Orders />
             </Route>
+            <Route path="/address">
+                <OrderAddress />
+            </Route>            
             <Route path="/">
                 <Home />
             </Route>
